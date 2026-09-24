@@ -1,0 +1,94 @@
+{
+  "name": "rudeguy`s bot",
+  "bot-account": {
+    "username": "pampa",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "rudeguy_21.aternos.me",
+    "port": 35903,
+    "version": "1.20.1",
+    "try-creative": false
+  },
+  "owner": "rudegu_y",
+  "ai": {
+    "enabled": true,
+    "model": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "apiKeyEnv": "GEMINI_API_KEY"
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "rudeguy"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "pampa is just AFK, back soon!",
+        "Keeping the server alive.",
+        "Hi everyone, I'm pampa the AFK bot."
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
+    "chat": true,
+    "console-commands": true,
+    "commander": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": true
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true
+  }
+}
